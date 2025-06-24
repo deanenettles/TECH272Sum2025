@@ -1,0 +1,13 @@
+When starting up for class:
+
+1) Copy your website folder into the Local folder (so it won't get lost if the system crashes)
+
+2) Go to the Apple menu, go to System Settings, scroll down and select Mouse; then select Mighty Mouse Settings, then for the right click change it from Primary Button to Secondary Button. 
+
+2) Go to Finder. Go to Finder > Settings. Click on Advanced and turn on "Show all filename extensions"
+
+3) Open Photoshop and log in to Adobe Creative Cloud.
+
+4) Open Dreamweaver
+
+5) In Dreamweaver, go to Sites > Manage Sites, create a new site, name it TECH272, and select the website folder on your Local Drive for the Local Site Folder and click Save.

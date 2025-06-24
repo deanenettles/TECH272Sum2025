@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+			/* CLEARFIX HACK */
+			.clearfix::after {
+			 	 content: "";
+ 				 clear: both;
+ 				 display: table;
+			}
+		
+		main {width:900px; outline:2px solid orange;}
+		div {width:300px;
+		height:150px;
+		background-color:red;
+			color:white;
+		}
+		.one {float:left;}
+		.two {background-color:blue; float:right;}
+		.three {background-color:green; float:left; clear:right;}
+	</style>
+</head>
+
+<body>
+	<main class="clearfix"><!-- PARENT -->
+		<div class="one"><!-- CHILD OF MAIN, PARENT OF P -->
+			<p>One</p><!-- CHILD OF DIV -->
+		</div>
+		<div class="two">
+			<p>Two</p>
+		</div>
+		<div class="three">
+			<p>Three clear right</p>
+		</div>
+	</main>
+</body>
+</html>

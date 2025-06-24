@@ -1,0 +1,56 @@
+/* CSS Document */
+			* {margin:10px; padding:10px;}
+			html {
+                box-sizing: border-box;
+              }
+              *, *:before, *:after {
+                box-sizing: inherit;
+              }
+
+			/* COLORING */
+
+			 header, main, footer {outline:1px solid red;}
+			 nav {outline:3px solid green;}
+			 section {outline:3px solid blue; }
+			 div {outline:3px solid orange;}
+			.slideshow, footer div.top, .main-nav {color:red;}
+
+			/* STRUCTURE */
+
+			.main_nav {color:blue;}
+			.prod_group {width:50%;}
+			.slideshow {
+				width:20rem;
+				height:10rem;
+				margin:5rem;
+				padding:2rem;
+				border:10px solid black;
+				background-color:#3CD9E0;
+				color:#960609;
+				font-size:2rem;
+				font-family:arial, helvetica, sans-serf;
+				font-weight:bold;
+				font-style:italic;
+				text-align:center;
+			}
+			
+			.prod_group {background-color: oklch(0.8 0.12 300);}
+			
+			/* TYPOGRAPHY */
+			h1 {font-size:5vw;}
+			span {
+				margin:0;
+				padding:0;
+			}
+			
+			/* NAV */
+			a {
+				font-size:2rem; 
+				text-decoration:none; 
+				font-weight:bold;
+			}
+			a:link {color:cadetblue;}
+			a:visited {color:orange;}
+			a:hover, a:focus {color:red;}
+			a:active {color:aqua;}
+
