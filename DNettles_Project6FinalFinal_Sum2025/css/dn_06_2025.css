@@ -35,7 +35,7 @@
             font-variation-settings:
                 "wdth" 100;
             }
-        h1 {font-size:5rem; 
+        h1 {font-size:5rem;
             line-height:4.5rem;
             margin-bottom:1rem;
             letter-spacing:-4px;
@@ -58,7 +58,26 @@
         #projects table th, #projects table td {text-align:left; vertical-align:top; padding:3px 0; border-bottom:1px solid black;}
 
         #projects td:nth-child(1) {padding-right:1rem;}
-        
+
         /* LINKS */
         nav a:any-link {color:black; text-decoration:none; font-weight:500;}
         nav a:hover, nav a:focus, nav a:active {color:white;}
+
+        /* FORM */
+        		/* FORM STRUCTURE */
+		input, select, textarea, button {display:block; margin-bottom:6px; padding:3px;}
+		input[type=text], input[type=email], select, textarea {width:100%; max-width:400px;}
+		input[type=radio] {display:inline; margin:0 10px;}
+
+		/* FORM TYPOGRAPHY */
+		#form p {margin-bottom:4px;}
+		#radio {margin:20px 0;}
+		input[type=email] + p {color:red; font-size:.75rem; margin-top:6px;} /* p element following the email element is formatted */
+
+		/* FORM BUTTONS */
+		button {width:100px; border-radius:6px;}
+		button, button:visited {margin-top:20px;background-color:red; color:white; font-weight:bold; border:0;}
+		button:hover, button:focus, button:active {background-color:aqua; color:black;}
+
+		button[type=reset], button[type=reset]:visited {background-color:darkkhaki; color:black}
+		button[type=reset]:hover, button[type=reset]:focus, button[type=reset]:active {background-color:#999; color:white;}

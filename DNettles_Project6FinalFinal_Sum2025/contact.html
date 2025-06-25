@@ -39,7 +39,7 @@
                     </ul>
                 </nav>
             </header>
-            <main id="about" class="clearfix">
+            <main id="contact" class="clearfix">
                 <div class="deane fl">
                     <h1>Deane Nettles</h1>
                     <h2>Freelance graphic&nbsp;designer and&nbsp;educator</h2>
@@ -47,20 +47,44 @@
 
                 </div>
                 <div class="content fr">
-                    <h3>About</h3>
-                    <p>Deane Nettles is a graphic designer, photographer, and illustrator. He has an MFA in Integrated Design from the University of Baltimore and has taught at numerous colleges and universities in the DC/Baltimore area.</p>
+                    <h3>Contact</h3>
+                    <h3>Contact us:</h3>
+                    <form action="mailto:sample@sample.com" method="post" enctype="text/plain"> <!-- change sample to your email address. If hosted on a website, talk to the host about setting up these instructions. -->
+                        <!-- NAME -->
+                        <input type="text" name="firstname" required autofocus placeholder="First Name*"> <!-- name must be unique; required is required to send form; autofocus means cursor is active in this field when page is open; placeholder is gray text in form field. -->
+                        <input type="text" name="lastname" required placeholder="Last Name*">
 
-                    <p>He began on a college newspaper as a photographer and learned production and designing on the grid. He received his undergraduate degree in news journalism. Then he went back for a degree in advertising design while editing the same student paper. The former editor of the newspaper got him a position working as a production artist at boutique agency Morgan Burchette; from there he became art director at KSK&nbsp;Communications.</p>
+                        <!-- EMAIL -->
+                        <input type="email" name="email" required placeholder="Email*">
+                        <p>* is required</p>
 
-                    <p>Since then he has freelanced for ad agencies, design studios and direct marketing firms. He has been art director at several publications and senior art director at August, Lang &amp;&nbsp;Husak, who he still manages projects for.</p>
+                        <!-- RADIO BUTTONS -->
+                        <div id="radio">
+                            <p>Favorite web language:</p>
+                            <input type="radio" id="html" name="language" value="HTML"><!-- button -->
+                            <label for="html">HTML</label><br> <!-- label for button -->
+                            <input type="radio" id="css" name="language" value="CSS"><!-- button -->
+                            <label for="html">CSS</label><br> <!-- label for button -->
+                            <input type="radio" id="java" name="language" value="JavaScript"><!-- button -->
+                            <label for="html">JavaScript</label><br> <!-- label for button -->
+                        </div><!-- end radio -->
 
-                    <p>He is a past president and life member of the Art Directors Club of Metropolitan Washington where he ran the Annual Show and produced programs and workshops.</p>
+                        <!-- REASON FOR EMAIL -->
+                        <p>Reason for email:</p>
+                        <select name="reason">
+                            <option value="instruction">I'm looking for instruction</option>
+                            <option value="newsletter">I'd like to receive your newsletter</option>
+                            <option value="other">Other reason</option>
+                            <option value="web">I noticed an error on your website</option>
+                        </select>
 
-                    <p>He has been teaching since 2006 and has taught courses in design, illustration and web design and advanced courses in typography, advertising and branding.</p>
+                        <!-- COMMENT -->
+                        <textarea name="comment" cols="45" rows="4" placeholder="Comments"></textarea>
 
-                    <p>Deane is always looking to work with an energetic, committed team like the one on his college newspaper — teams told to quiet down by the classes next door and happy to continue their enthusiastic arguments over pizzas after hours.</p>
-
-                    <p>In addition he is currently learning type design and javascript; is married with a wife, a dog and a cat; draws, paints and sculpts; bikes over a thousand miles a year; and dances swing, waltz, blues and zydeco.</p>
+                        <!-- BUTTONS.-->
+                        <button type="submit" value="submit">Submit</button>
+                        <button type="reset" value="reset">Reset</button>
+                    </form>
                 </div>
             </main>
         </div><!-- end #bkgd_img -->
