@@ -55,7 +55,7 @@
 
                         <!-- EMAIL -->
                         <input type="email" name="email" required placeholder="Email*">
-                        <p>* is required</p>
+                        <p>* required</p>
 
                         <!-- RADIO BUTTONS -->
                         <div id="radio">
@@ -69,8 +69,9 @@
                         </div><!-- end radio -->
 
                         <!-- REASON FOR EMAIL -->
-                        <p>Reason for email:</p>
+                        <p>Reason for this email:</p>
                         <select name="reason">
+                            <option value="instruction">I'd like you to do a project</option>
                             <option value="instruction">I'm looking for instruction</option>
                             <option value="newsletter">I'd like to receive your newsletter</option>
                             <option value="other">Other reason</option>
@@ -78,7 +79,7 @@
                         </select>
 
                         <!-- COMMENT -->
-                        <textarea name="comment" cols="45" rows="4" placeholder="Comments"></textarea>
+                        <textarea name="comment" cols="45" rows="4" placeholder="Additional info"></textarea>
 
                         <!-- BUTTONS.-->
                         <button type="submit" value="submit">Submit</button>
