@@ -12,12 +12,12 @@
         body {background-color:/* #334f73 */ #333;}
         #wrapper {width:100%; margin:0 auto;}
         #bkgd_img {background-repeat:no-repeat; background-size:cover; background-image:url(../images/IMG_5936_2.avif);}
-        header {padding:18px 71px 20px 80px;}
+        header {padding:18px 71px 0 80px;}
         .logo {float:left;}
         .logo img {width:5rem;}
         nav {width:428px; height:25px; margin-top:22px; float:right; text-align:right;}
         main { padding:17px 20px 120px 80px;}
-        section{float:left; width:35%; }
+        section {float:left; width:35%; }
         article {float:right; width:45%; margin:40px 40px 0 0; background-color:rgba(255,255,255,0.4); padding:20px; border-radius:5px; line-height:1.4;}
         footer {height:64px; padding:20px 80px; background-color:#c41230; color:white; font-size:.9rem;}
         nav ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:space-between;}
@@ -30,9 +30,9 @@
             font-variation-settings:
                 "wdth" 100;
             }
-        h1 {font-size:6rem; 
-            line-height:5.5rem;
-            margin-bottom:2rem;
+        h1 {font-size:5rem; 
+            line-height:4.5rem;
+            margin-bottom:1rem;
             letter-spacing:-4px;
             color:#ffdb9a;
             text-shadow:0 1px 5px rgba(0,0,0,.5);
