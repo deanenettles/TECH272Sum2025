@@ -81,3 +81,8 @@
 
 		button[type=reset], button[type=reset]:visited {background-color:darkkhaki; color:black}
 		button[type=reset]:hover, button[type=reset]:focus, button[type=reset]:active {background-color:#999; color:white;}
+
+        /* SMALL PORTFOLIO IMAGES */
+        .flex-container figure {width:47%; margin:0 .5rem 0 0; padding:0;}
+        .flex-container figure img {width:100%;}
+        figcaption {font-size:.8rem; text-align:center; margin:.25rem 0 1rem 0;}
