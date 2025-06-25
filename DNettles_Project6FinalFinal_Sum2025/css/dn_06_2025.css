@@ -17,7 +17,8 @@
         .logo img {width:5rem;}
         nav {width:428px; height:25px; margin-top:22px; float:right; text-align:right;}
         main { padding:17px 20px 120px 80px;}
-        section{width:100%; max-width:460px; }
+        section{float:left; width:35%; }
+        article {float:right; width:45%; margin:40px 40px 0 0; background-color:rgba(255,255,255,0.4); padding:20px; border-radius:5px; line-height:1.4;}
         footer {height:64px; padding:20px 80px; background-color:#c41230; color:white; font-size:.9rem;}
         nav ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:space-between;}
 
@@ -34,11 +35,12 @@
             margin-bottom:2rem;
             letter-spacing:-4px;
             color:#ffdb9a;
+            text-shadow:0 1px 5px rgba(0,0,0,.5);
         }
         h2 {margin-bottom:4rem;
-        font-weight:400;}
-        .button {width:224px; text-align:center; background-color:#334f73; color:#fff; padding:18px 0; text-decoration:none; border-radius:5px; font-size:1.2;
-        }
+        font-weight:400; line-height:1.2;}
+
+        .button {width:224px; text-align:center; background-color:#334f73; color:#fff; padding:18px 0; text-decoration:none; border-radius:5px; font-size:1.2rem; }
 
         /* LINKS */
         nav a:any-link {color:black; text-decoration:none; font-weight:500;}
