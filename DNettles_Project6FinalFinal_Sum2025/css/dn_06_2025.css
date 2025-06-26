@@ -22,8 +22,7 @@
         nav ul {list-style-type:none; margin:0; padding:0; display:flex; justify-content:space-between;}
         .fl {float:left;}
         .fr {float:right;}
-        .flex-container, #softwarelist div {display:flex; gap:6px;
-            flex-wrap: wrap; padding-top:1rem;}
+        .flex-container, #softwarelist div {display:flex;  justify-content:center; gap:6px; flex-wrap: wrap; padding-top:1rem;}
         #softwarelist div p {background-color:#c41230; color:white; font-weight:400; padding:3px 6px; margin:0; border-radius:6px;}
         table {width:100%; border-collapse:collapse;}
 
@@ -89,6 +88,6 @@
 		button[type=reset]:hover, button[type=reset]:focus, button[type=reset]:active {background-color:#999; color:white;}
 
         /* SMALL PORTFOLIO IMAGES */
-        .flex-container figure {width:47%; margin:0 .5rem 0 0; padding:0;}
+        .flex-container figure {width:46%; margin:0 .25rem; padding:0;}
         .flex-container figure img {width:100%;}
         figcaption {font-size:.8rem; text-align:center; margin:.25rem 0 1rem 0;}
