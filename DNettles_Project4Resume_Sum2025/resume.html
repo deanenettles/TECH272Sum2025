@@ -12,14 +12,14 @@
 		
 		html {box-sizing:border-box;}
 		*, *:before, *:after {box-sizing:inherit;}
-		body {margin:0; padding:0; background-color:#333; }
+		body {margin:20px 0; padding:0; background-color:#333; }
 		
 		/* STRUCTURE */
 		
 		#wrapper {width:792px; margin:0 auto;}
-		#contact {width:40%; background-color:#ccc; padding:1.5rem; border-radius:  1rem 0 0 1rem ;}
+		#contact {width:40%; background-color:#eee; padding:1.5rem; border-radius:  1rem 0 0 1rem ;}
 		#general {width:60%; background-color:#fff; padding:1.5rem; border-radius: 0 1rem 1rem 0; padding-bottom:40px;}
-		.flex-box {display:flex;}
+		.flex-box {display:flex;} /* THis uses the default atributes of flex; items are placed in a row and stretch from top to bottom of the page. Also don't wrap, so have to fit in 100% of width (45% + 60%) */
 		
 		
 		/* TYPOGRAPHY */
@@ -49,8 +49,10 @@
 
 		#contact p {padding:0; margin:0 0 3px 0; font-size:.8rem;}
 		
-		#skills ul {list-style-type:none; flex-wrap:wrap; gap:9px; padding:0;}
-		#skills li {background-color:#999; padding:6px; color:white; font-weight:500; }
+		#general p + p {margin-top:1rem;}
+		
+		#skills ul {list-style-type:none; flex-wrap:wrap; gap:9px; padding:0; } /* removed the bullets, */
+		#skills li {background-color:#999; padding:6px; color:white; font-weight:500; border-radius:.25rem;}
 		
 		/* TABLE */
 		th {font-weight:500;}
@@ -59,6 +61,10 @@
 		th:nth-child(2) {width:10%;}
 		th:nth-child(3) {width:10%;}
 		th:nth-child(4) {width:10%;}
+		
+		/* LINKS */
+		a:link, a:active {color:red; text-decoration:none; font-weight:400;}
+		a:hover, a:focus, a:active {color:blueviolet;}
 
 	</style>
 </head>
@@ -68,7 +74,7 @@
 		<section id="contact">
 			<h1>Your Name</h1>
 			<h2>Graphic Designer</h2>
-			<h3>Contact</h3>
+			<h3>Contact:</h3>
 			<p><a href="mailto:dnettle2@montgomerycollege.edu">dnettle2@montgomerycollege.edu</a></p>
 			<p><a href="tel:7034342550">703&#8209;434&#8209; 2550</a></p>
 			<p>51 Mannakee Street<br>
@@ -88,7 +94,8 @@
 		</section>
 		<section id="general">
 		  <h3>Summary</h3>
-			<p>Here is a summary of my work experience</p>
+			<p>I started working in newspapers, then graduated to working at design studios, ad agencies, direct marketing firms and publications.</p>
+			<p>Currently I freelance for a variety of clients and teach graphic design at area colleges and universities.</p>
 		  <h3>Experience</h3>
 			<p><time datetime="06-2023">June 2023</time>&ndash;<time datetime="06-2024">June 2024</time></p>
 			<h4>Newspaper Production</h4>
