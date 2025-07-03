@@ -3,25 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- this sets the site for use with mobile devices -->
+	<meta name="description" content="Description of page"><!--This description is used by search engines to describe the page -->
 	<link href="css/normalize.css" rel="stylesheet">
 	<style>
 		* {outline:1px solid red;}
 		html {box-sizing:border-box;}
 		*, *:before, *:after {box-sizing:inherit;}
-		body {margin:0; padding:0; background-color:#333}
-		#wrapper {max-width:800px; margin:0 auto;}
-		header, section, footer {padding:30px; background-color:white;}
-		nav {background-color:red;}
-		
-		nav ul {margin:0; padding:10px 30px; display:flex; flex-wrap:wrap; gap:10px;}
-		nav li {list-style-type:none; }
-		
-		
-		@media screen and (min-width:500px){
-			main {display:flex;}
-			.one {width:40%;}
-			.two {width:60%;}
-		}
+		body {margin:0; padding:0;}
 	</style>
 </head>
 
@@ -40,12 +29,7 @@
 			</ul>
 		</nav>
 		<main>
-			<section class="one">
-				Section One
-			</section>
-			<section class="two">
-				Section Two
-			</section>		
+			Main
 		</main>
 		<footer>
 			Footer

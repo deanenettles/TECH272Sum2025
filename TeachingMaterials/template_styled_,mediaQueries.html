@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- this sets the site for use with mobile devices -->
+	<meta name="description" content="Description of page"><!--This description is used by search engines to describe the page -->
+	<link href="css/normalize.css" rel="stylesheet">
+	<style>
+		* {outline:1px solid red;}
+		html {box-sizing:border-box;}
+		*, *:before, *:after {box-sizing:inherit;}
+		body {margin:0; padding:0; background-color:#333;}
+		#wrapper {background-color:white; max-width:800px; margin:0 auto;}
+		header, section, footer {padding:30px;}
+		
+		nav ul {margin:0; padding:10px 30px; display:flex; flex-wrap:wrap; gap:10px;}
+		nav li {list-style-type:none;}
+		
+		/* @media screen and (min-width:500px){
+			html {font-family:sans-serif;}
+			main {display:flex;}
+			.one {width:40%;}
+			.two {width:60%;} */
+		}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			Header
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section class="one">
+				<h2>Section One</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet vestibulum sem. Ut pharetra lorem nec neque pulvinar, id rutrum turpis pulvinar. Cras mattis enim quam, eget aliquam lectus pharetra ac. Curabitur eget ipsum justo. Nunc tortor magna, pulvinar et imperdiet et, sodales at nulla. Quisque vel elit ligula. Nulla sit amet varius eros. Cras pharetra mollis enim, vel lobortis mi fermentum ac.</p>
+
+				<p>Nulla dictum, ligula in ultrices laoreet, massa est egestas erat, bibendum ullamcorper nisl ante eget nibh. Etiam elementum sed nunc eget vehicula. Cras porttitor iaculis dui, nec tincidunt eros congue eu. Curabitur hendrerit, neque a sodales consequat, magna nisi fringilla orci, a dignissim nunc diam eget ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi semper mattis porta. Mauris sodales nibh nec arcu luctus, at rhoncus nisl ultricies. Donec viverra in nulla eget varius. Curabitur interdum risus sit amet orci venenatis convallis ac vel ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</p>
+			</section>
+			<section class="two">
+				<h2>Section Two</h2>
+				<p>Fusce sed pharetra orci, vel hendrerit nulla. Suspendisse finibus odio convallis mauris auctor, sit amet dapibus leo tempor. Suspendisse potenti. Maecenas non nisi risus. Nullam nulla nisi, egestas vel sem vel, eleifend consectetur sem. Mauris urna urna, sodales ac neque sit amet, bibendum tempus nunc. Nulla rhoncus nisi justo, non mollis neque malesuada et. Donec tortor sapien, tincidunt quis dui in, pharetra hendrerit dolor. Sed varius dictum felis in eleifend. Pellentesque erat mi, commodo eget hendrerit sed, ultricies a justo. Maecenas nulla quam, tristique a risus faucibus, venenatis mattis turpis. Proin blandit condimentum sapien, vel auctor urna ullamcorper vel.</p>
+
+				<p>Sed eget tempor urna, elementum rutrum ipsum. Nunc dignissim venenatis lacus vel eleifend. Aliquam ullamcorper tristique dui ut lacinia. Cras id sem dapibus, euismod orci non, convallis purus. Quisque et mauris lacus. Nullam finibus risus elit, ac venenatis tellus eleifend ut. Donec aliquam tortor leo, eget tristique nibh congue viverra.</p>
+
+				<p>Proin pharetra sed arcu at interdum. Quisque faucibus ultrices enim, quis interdum erat semper at. Vivamus tempor vehicula risus ac eleifend. Sed vel elit blandit, viverra magna id, tincidunt mi. Aliquam sed augue ultricies diam pharetra congue ut non urna. Donec in consequat odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut feugiat odio vitae fermentum eleifend. Proin nec metus sed nunc tincidunt accumsan. Vestibulum purus augue, facilisis nec iaculis ac, tempor nec elit.</p>
+			</section>
+		</main>
+		<footer>
+			Footer
+		</footer>
+	</div>
+</body>
+</html>
