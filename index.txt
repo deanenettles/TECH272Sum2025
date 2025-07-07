@@ -49,9 +49,10 @@
 				<ul>
 					<li><a href="DNettles_Project1_Sum2025/dnettles_project1_Sum2025.html" target="_blank">Project 1: Biography</a></li>
 					<li><a href="DNettles_Project2Gropius_Sum2025/biography.html" target="_blank">Project 2: Gropius</a></li>
-					<li><a href="DNettles_Project3MyWiki_Sum2025/background-image.html" target="_blank">Project 5: My Wiki</a></li>
-					<li><a href="DNettles_Project4TableForm_Sum2025/formsTables.html" target="_blank">Project 3: Table and Form</a></li>
-					<li><a href="DNettles_Project5Resume_Sum2025/resume.html" target="_blank">Project 4: Resume</a></li>					<li><a href="DNettles_Project6FinalSite_Sum2025/index.html" target="_blank">Project 6: Final 5-page Site</a></li>
+					<li><a href="DNettles_Project3Table&Form_Sum2025/formsTables.html" target="_blank">Project 3: Table and Form</a></li>
+					<li><a href="DNettles_Project4Resume_Sum2025/resume.html" target="_blank">Project 4: Resume</a></li>
+					<li><a href="DNettles_Project5Final_Sum2025/background-image.html" target="_blank">Project 5: My Wiki</a></li>
+					<li><a href="DNettles_Project6FinalFinal_Sum2025/index.html" target="_blank">Project 6: Final 5-page Site</a></li>
 					<!-- <li><a href="TeachingMaterials/FixedHeader.html" target="_blank">Fixed Header</a></li>
 					<li><a href="TeachingMaterials/Template_MediaQueries2.html" target="_blank">Media Queries</a></li> -->
 				</ul>
